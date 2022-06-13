@@ -47,7 +47,7 @@ Remove failed simulations and wrap all results for this strategy in a list, so t
 Create arrays with results for all simulation across all strategies.
 
 
-### File 2: Hihi_AM_all_strategies_source
+### File 2: Hihi_AM_all_strategies_source_ARTICLE_SI
 Script with decision rules. All follow the same structure. Note feeding decisions are for t+1, harvest and release for t+2 reflecting different logistic constraints.
 
 Step 1 Harvest: determine which sites we can harvest birds from.
@@ -60,3 +60,15 @@ Step 6 Feeding: determine which sites we are going to feed.
 Other functions
 - NIMBLE model for estimation of population parameters
 - Estimation of beta parameters from mean and sd
+
+### File 3: Hihi_AM_priors_ARTICLE_SI
+Excel file containing all necessary data for the analysis (which are not embedded in the code itself).
+It consists of the following worksheets read into the R code.
+
+Hihi_AM_elicited_K: expert-elicited carrying capacities for current and prospective sites
+Hihi_AM_posteriors_2020: prior distributions for current population size and other parameters for existing sites
+Hihi_AM_weights: objectives weights expressed by HRG members
+Hihi_AM_NZ_inflation: the values of inflation used to adjust projections of management costs
+Hihi_AM_NZ_visitors: the numbers of site visitors used to project advocacy potential
+Hihi_AM_translocation_costs: matrix of costs for single translocations of hihi between source-destination site combinations
+Metadata: explanation of variables for all worksheets
