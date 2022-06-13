@@ -65,10 +65,10 @@ Other functions
 Excel file containing all necessary data for the analysis (which are not embedded in the code itself).
 It consists of the following worksheets read into the R code.
 
-Hihi_AM_elicited_K: expert-elicited carrying capacities for current and prospective sites
-Hihi_AM_posteriors_2020: prior distributions for current population size and other parameters for existing sites
-Hihi_AM_weights: objectives weights expressed by HRG members
-Hihi_AM_NZ_inflation: the values of inflation used to adjust projections of management costs
-Hihi_AM_NZ_visitors: the numbers of site visitors used to project advocacy potential
-Hihi_AM_translocation_costs: matrix of costs for single translocations of hihi between source-destination site combinations
-Metadata: explanation of variables for all worksheets
+- Hihi_AM_elicited_K: expert-elicited carrying capacities for current and prospective sites
+- Hihi_AM_posteriors_2020: prior distributions for current population size and other parameters for existing sites
+- Hihi_AM_weights: objectives weights expressed by HRG members
+- Hihi_AM_NZ_inflation: the values of inflation used to adjust projections of management costs
+- Hihi_AM_NZ_visitors: the numbers of site visitors used to project advocacy potential
+- Hihi_AM_translocation_costs: matrix of costs for single translocations of hihi between source-destination site combinations
+- Metadata: explanation of variables for all worksheets
